@@ -1,31 +1,25 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Personal Portfolio Website
 
+Welcome to my personal portfolio website! This website showcases my skills, projects, and achievements in Data Science in Biomedicine. It's designed to help you get to know me better and explore the work I've done.
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+Features
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- Home: An introduction to who I am and what I do.
+- Experience: A further look into my work experience.
+- Portfolio: A collection of my best projects, including detailed descriptions and links to code repositories.
+- Resume: A downloadable version of my professional resume.
+- Contact: A simple form for you to get in touch with me, along with my social media links.
 
-(* = not included)
+Technologies Used
 
-AJ
-aj@lkn.io | @ajlkn
+- HTML: For structuring the website.
+- CSS: For styling the website and ensuring it's responsive across devices.
+- JavaScript: To add interactivity and functionality, including animations and dynamic content.
 
+Getting in Touch
 
-Credits:
+Feel free to contact me through the contact form on the website, or reach out directly via christopherfuwas@gmail.com or on linkedin.com/in/christopher-fu/.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+License
 
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+This project is licensed under the MIT License - see the LICENSE file for details.
