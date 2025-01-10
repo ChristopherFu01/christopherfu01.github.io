@@ -118,6 +118,69 @@ input, select, textarea {
 		}
 
 
+/* Project Icons */
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+}
+
+/* Header styles */
+.header {
+	font-size: 1.25em; /* Header font size */
+	color: #333; /* Header text color */
+	margin-top: 50px; /* Space below the header */
+  }
+
+.center-container {
+	display: flex;
+	flex-direction: column; /* Stack image over text */
+	align-items: center; /* Center image and text horizontally */
+	text-align: center; /* Center text alignment */
+  }
+
+  .centered-text {
+	margin-top: 2px; /* Space between the image and text */
+	color: rgba(0, 0, 0, 0.65); /* Text color */
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+	line-height: 1.65;
+  }
+  
+
+/* Image container for alignment */
+.image-container {
+	position: relative; /* Required for pseudo-elements */
+	width: 200px; /* Fixed width for the circle */
+	height: 200px; /* Fixed height for the circle */
+	border-radius: 50%; /* Ensures the container is round */
+	background-color: white; /* White gap between borders */
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 0 0 15px white, 0 0 0 16px rgba(0, 0, 0, 0.2); /* Multi-layered border effect */
+	overflow: hidden; /* Ensures image stays within the circle */
+	display: flex; /* Center align the image */
+	justify-content: center;
+	align-items: center;
+  }
+  
+  /* Image styles */
+  .interactive-image {
+	display: block;
+	width: 300px;
+	height: auto;
+	border-radius: 50%;
+	transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .interactive-image:hover {
+	transform: scale(1.1); /* Enlarge slightly */
+	filter: brightness(1.2); /* Make the image slightly white */
+  }
+
 /* Type */
 
 	body {
