@@ -181,6 +181,38 @@ body {
 	filter: brightness(1.2); /* Make the image slightly white */
   }
 
+  .image-container:hover {
+	transform: scale(1.1);
+	filter: brighteness(1.2)
+  }
+
+/* Hover text styles */
+.hover-text {
+	position: absolute; /* Positioned over the image */
+	top: 50%; /* Center vertically */
+	left: 50%; /* Center horizontally */
+	transform: translate(-50%, -50%); /* Offset for perfect centering */
+	font-size: 24px; /* Text size */
+	font-weight: bold; /* Make text bold */
+	color: #ADD8E6; /* Faded black text */
+	text-shadow: 
+    -1px -1px 0px #fff, /* Top-left */
+    1px -1px 0px #fff,  /* Top-right */
+    -1px 1px 0px #fff,  /* Bottom-left */
+    1px 1px 0px #fff;   /* Bottom-right */
+	opacity: 0; /* Hidden initially */
+	visibility: hidden; /* Ensure it's not interactable when hidden */
+	transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in effect */
+	pointer-events: none; /* Prevent the text from interfering with clicks */
+  }
+
+/* Show hover text on image hover */
+.image-container:hover .hover-text {
+	opacity: 1; /* Fully visible on hover */
+	visibility: visible; /* Ensure it's interactable on hover */
+  }
+  
+
 /* Type */
 
 	body {
