@@ -194,7 +194,7 @@ body {
 	transform: translate(-50%, -50%); /* Offset for perfect centering */
 	font-size: 24px; /* Text size */
 	font-weight: bold; /* Make text bold */
-	color: #ADD8E6; /* Faded black text */
+	color: #808080; /* Faded black text */
 	text-shadow: 
     -1px -1px 0px #fff, /* Top-left */
     1px -1px 0px #fff,  /* Top-right */
